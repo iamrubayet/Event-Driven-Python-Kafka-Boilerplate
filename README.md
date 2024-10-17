@@ -29,10 +29,10 @@ docker compose up
 ```bash
 python3 transaction.py
 
-```bash
+
 python3 email.py
 
-```bash
+
 python3 analytics.py
 ```
 
