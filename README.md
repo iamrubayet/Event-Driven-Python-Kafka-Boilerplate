@@ -12,17 +12,29 @@ Start by cloning the repository to your local machine:
 
 ```bash
 git clone https://github.com/iamrubayet/Event-Driven-Python-Kafka-Boilerplate
+```
 
+### 2. Navigate to the Project Directory
 
+```bash
 cd Event-Driven-Python-Kafka-Boilerplate
+```
+### 3. Start Kafka with Docker Compose
 
-
+```bash
 docker compose up
+```
+### 4. Run the Python Scripts
 
-
+```bash
 python3 transaction.py
 
+```bash
+python3 email.py
+
+```bash
 python3 analytics.py
+```
 
 
 
