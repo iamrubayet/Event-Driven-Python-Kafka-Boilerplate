@@ -19,12 +19,16 @@ git clone https://github.com/iamrubayet/Event-Driven-Python-Kafka-Boilerplate
 ```bash
 cd Event-Driven-Python-Kafka-Boilerplate
 ```
-### 3. Start Kafka with Docker Compose
+### 3. Install dependencies
+```bash
+ pip install -r requirements.txt
+```
 
+### 4. Start Kafka with Docker Compose
 ```bash
 docker compose up
 ```
-### 4. Run the Python Scripts
+### 5. Run the Python Scripts
 
 ```bash
 python3 transaction.py
