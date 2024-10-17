@@ -1,6 +1,6 @@
 # Event-Driven Python Kafka Boilerplate
 
-This repository demonstrates an event-driven architecture using Python and Kafka. It includes several Python scripts that interact with Kafka to handle transactions, emails, and analytics.
+This repository demonstrates an event-driven architecture using Python and Kafka. It includes several Python scripts that interact with Kafka to handle transactions, emails, and analytics and simulated order backend.
 
 ## Setup Instructions
 
