@@ -4,13 +4,13 @@ from kafka import KafkaProducer
 
 
 ORDER_KAFKA_TOPIC = 'order_details'
-
 ORDER_LIMIT = 2000
 
 producer = KafkaProducer(bootstrap_servers='localhost:29092')
 
 print("Going to be generating order after every 10 seconds")
 print("will generate one unique order every 10 seconds")
+
 time.sleep(10)
 
 

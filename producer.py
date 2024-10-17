@@ -10,6 +10,7 @@ producer = KafkaProducer(bootstrap_servers="localhost:29092")
 
 print("Going to be generating order after 10 seconds")
 print("Will generate one unique order every 5 seconds")
+
 time.sleep(10)
 
 for i in range(ORDER_LIMIT):

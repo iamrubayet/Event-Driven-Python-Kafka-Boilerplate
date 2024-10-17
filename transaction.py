@@ -1,5 +1,4 @@
 import json
-
 from kafka import KafkaProducer
 from kafka import KafkaConsumer
 
@@ -9,10 +8,7 @@ ORDERED_KAFKA_TOPIC = "order_details"
 ORDERED_CONFIRMED_KAFKA_TOPIC = "order_confirmed"
 
 consumer = KafkaConsumer(ORDERED_KAFKA_TOPIC, bootstrap_servers="localhost:29092")
-
 producer = KafkaProducer(bootstrap_servers="localhost:29092")
-
-
 print("Gonna start listening")
 
 while True:
